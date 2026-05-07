@@ -37,39 +37,25 @@ body::before {
 .cursor {
   position: fixed;
   top: 0; left: 0;
-  width: 8px; height: 8px;
-  background: var(--ink);
+  width: 20px; height: 20px;
+  background: #fff;
+  mix-blend-mode: difference;
   border-radius: 50%;
   pointer-events: none;
   z-index: 9999;
   transform: translate3d(-50%, -50%, 0);
-  transition: width 0.2s ease, height 0.2s ease, background 0.2s ease;
+  transition: width 0.3s cubic-bezier(0.76, 0, 0.24, 1), height 0.3s cubic-bezier(0.76, 0, 0.24, 1), background 0.3s ease;
   will-change: transform;
 }
 
 .cursor-glow {
-  position: fixed;
-  top: 0; left: 0;
-  width: 36px; height: 36px;
-  border: 1.5px solid var(--orange);
-  background: transparent;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 9998;
-  transform: translate3d(-50%, -50%, 0);
-  transition: width 0.3s ease, height 0.3s ease, background 0.3s ease, border-color 0.3s ease;
-  will-change: transform;
+  display: none;
 }
 
 body:has(a:hover) .cursor, body:has(button:hover) .cursor, body:has(.hover-target:hover) .cursor { 
-  width: 0px; 
-  height: 0px; 
-}
-body:has(a:hover) .cursor-glow, body:has(button:hover) .cursor-glow, body:has(.hover-target:hover) .cursor-glow { 
   width: 60px; 
-  height: 60px;
-  background: rgba(232,82,26,0.08);
-  border-color: var(--orange);
+  height: 60px; 
+  background: #fff;
 }
 
 /* ── LOADER ── */
@@ -342,10 +328,27 @@ header::after {
   transition: all 0.2s;
   cursor: none;
 }
-.hero-tag:hover, .hero-tag.accent {
+.hero-tag:hover {
   background: var(--ink);
   color: var(--cream);
   border-color: var(--ink);
+}
+
+.hero-tag.accent {
+  background: #c2410c;
+  color: var(--cream);
+  border-color: #c2410c;
+}
+
+.hero-tag.highlight {
+  background: linear-gradient(135deg, rgba(232,82,26,0.1) 0%, rgba(245,240,232,0) 100%);
+  border-color: rgba(232,82,26,0.3);
+  color: var(--orange);
+}
+.hero-tag.highlight:hover {
+  background: var(--orange);
+  color: var(--cream);
+  border-color: var(--orange);
 }
 
 .hero-stats {

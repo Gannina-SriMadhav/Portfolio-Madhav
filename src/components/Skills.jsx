@@ -49,7 +49,7 @@ const Skills = () => {
           </motion.div>
           
           <motion.div className="skill-col hover-target" variants={itemVariants}>
-            <div className="skill-col-label">Web Dev</div>
+            <div className="skill-col-label">Web Development</div>
             <div className="skill-items">
               <div className="skill-item">React.js</div>
               <div className="skill-item">Node.js</div>
@@ -59,7 +59,7 @@ const Skills = () => {
           </motion.div>
           
           <motion.div className="skill-col hover-target" variants={itemVariants}>
-            <div className="skill-col-label">ML & Data</div>
+            <div className="skill-col-label">Data Science</div>
             <div className="skill-items">
               <div className="skill-item">Data Analysis</div>
               <div className="skill-item">EDA</div>
@@ -81,7 +81,7 @@ const Skills = () => {
           <motion.div className="skill-col hover-target" variants={itemVariants}>
             <div className="skill-col-label">Concepts</div>
             <div className="skill-items">
-              <div className="skill-item">Full-Stack Dev</div>
+              <div className="skill-item">Full-Stack Web Developer</div>
               <div className="skill-item">REST APIs</div>
               <div className="skill-item">RBAC</div>
               <div className="skill-item">Agile / OOP</div>

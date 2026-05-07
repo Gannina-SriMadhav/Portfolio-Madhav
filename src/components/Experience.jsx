@@ -14,7 +14,7 @@ const Experience = () => {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
         >
-          Where I've built <em>real things</em> that matter.
+          Where I've built <em>real things</em> that matter with efficiency.
         </motion.h2>
 
         <motion.div 
@@ -51,8 +51,8 @@ const Experience = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <div className="exp-meta">
-              <div className="exp-company">Hackathon</div>
-              <div className="exp-period">Recent</div>
+              <div className="exp-company">Smart Indian Hackathon</div>
+              <div className="exp-period">2025</div>
               <div className="exp-role-name">Fraud Detection System</div>
               <a 
                 href="/hackathon-cert.pdf" 

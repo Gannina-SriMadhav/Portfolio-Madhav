@@ -24,7 +24,7 @@ const Hero = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.1 }}
         >
-          Sri<br /><em>Madhav</em><br />Gannina
+          Gannina<br /><em>Sri Madhav</em>
         </motion.h1>
 
         <motion.p
@@ -45,11 +45,11 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <span className="hero-tag accent">Python</span>
-          <span className="hero-tag">React.js</span>
-          <span className="hero-tag">Data Analytics</span>
-          <span className="hero-tag">Full-Stack Dev</span>
-          <span className="hero-tag">Tableau</span>
-          <span className="hero-tag">Java</span>
+          <span className="hero-tag highlight">React.js</span>
+          <span className="hero-tag highlight">Data Analytics</span>
+          <span className="hero-tag highlight">Full-Stack Web Developer</span>
+          <span className="hero-tag highlight">Tableau</span>
+          <span className="hero-tag highlight">Java</span>
         </motion.div>
 
         <motion.div
