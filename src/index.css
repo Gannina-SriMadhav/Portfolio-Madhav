@@ -860,7 +860,7 @@ header::after {
 @media (max-width: 1024px) {
   .hero { flex-direction: column-reverse; padding-top: 14vh; align-items: flex-start; }
   .hero-visual { width: 100%; justify-content: flex-start; }
-  .hero-image-wrapper { max-width: 100%; aspect-ratio: 16/9; }
+  .hero-image-wrapper { max-width: 100%; aspect-ratio: 4/5; }
 }
 
 @media (max-width: 900px) {
