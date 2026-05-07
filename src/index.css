@@ -58,6 +58,13 @@ body:has(a:hover) .cursor, body:has(button:hover) .cursor, body:has(.hover-targe
   background: #fff;
 }
 
+/* Hide custom cursor on mobile / touch devices */
+@media (pointer: coarse) {
+  .cursor {
+    display: none !important;
+  }
+}
+
 /* ── LOADER ── */
 .loader {
   position: fixed; inset: 0;
