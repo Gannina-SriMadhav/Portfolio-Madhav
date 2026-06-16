@@ -6,6 +6,8 @@ const Credentials = () => {
     { name: "AI for Beginners", org: "HP", date: "Jun 2025", link: "/hp-cert.pdf" },
     { name: "Data Analytics Job Simulation", org: "Deloitte", date: "Oct 2025", link: "/deloitte-cert.pdf" },
     { name: "React.js", org: "Infosys", date: "Nov 2025", link: "/infosys-cert.pdf" },
+    { name: "Oracle Certified Foundations Associate", org: "Oracle", date: "Jun 2026", link: "/oracle-cert.pdf" },
+    { name: "AWS Certified Cloud Practitioner", org: "AWS", date: "Jun 2026", link: "/aws-cert.pdf" },
     { name: "Linux Essentials", org: "Cisco", date: "Oct 2025", link: "/cisco-linux-cert.pdf" },
     { name: "Operating Systems Basics", org: "Cisco", date: "Sep 2025", link: "/cisco-os-cert.pdf" }
   ];

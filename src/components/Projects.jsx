@@ -22,7 +22,9 @@ const Projects = () => {
       num: "03",
       name: "Medical Virtual Consultation Platform",
       desc: "Full-stack healthcare platform for virtual patient-doctor consultations, appointment management, and digital prescriptions. RBAC for four roles (Doctor, Patient, Pharmacist, Admin) with complete module-level workflows.",
-      tags: ["Full-Stack", "RBAC", "Dec 2025–Jan 2026"]
+      tags: ["Full-Stack", "RBAC", "Dec 2025–Jan 2026"],
+      liveLink: "https://online-virtual-consultation-system.onrender.com/",
+      githubLink: "https://github.com/Gannina-SriMadhav/Online-Virtual-Consultation-System-"
     },
     {
       num: "04",
@@ -61,7 +63,6 @@ const Projects = () => {
               <div>
                 <div className="proj-name">
                   {proj.name}
-                  {proj.liveLink && <ArrowUpRight size={24} className="proj-arrow" strokeWidth={1.5} />}
                 </div>
                 <p className="proj-desc">{proj.desc}</p>
                 {(proj.liveLink || proj.githubLink) && (

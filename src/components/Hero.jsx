@@ -45,10 +45,8 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <span className="hero-tag accent">Python</span>
-          <span className="hero-tag highlight">React.js</span>
           <span className="hero-tag highlight">Data Analytics</span>
           <span className="hero-tag highlight">Full-Stack Web Developer</span>
-          <span className="hero-tag highlight">Tableau</span>
           <span className="hero-tag highlight">Java</span>
         </motion.div>
 
@@ -85,7 +83,7 @@ const Hero = () => {
             <div className="stat-lbl">Live Projects</div>
           </div>
           <div>
-            <div className="stat-num">5</div>
+            <div className="stat-num">7</div>
             <div className="stat-lbl">Certifications</div>
           </div>
         </motion.div>
